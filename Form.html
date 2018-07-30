@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clothes</title>
+</head>
+<body>
+<p align="right"> <a href="logout.php">Logout</a></p>
+<form action="clothes_database.php" method="post">
+    Code:<input type="text" name="code" required><br>
+    Title: <input type="text" name="title" required><br>
+    Description: <input type="text" name="description" required ><br>
+    Type: <input type="text" name="type" required><br>
+    Size: <select name="size" required>
+    <option value="Small">Small</option>
+    <option value="Medium">Medium</option>
+    <option value="Large">Large</option>
+</select>
+   <a href="display_table.php"> <input type="submit" value="Add"></a><br>
+
+</form>
+
+</body>
+</html>
